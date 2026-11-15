@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Sign in - Apollyon Wiki</title>
+<link rel="icon" href="assets/logos/favicon-red.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<main class="stage">
+  <section class="card" aria-labelledby="title">
+    <img class="brand" src="assets/logos/logo-ad-white.png" alt="Apollyon Dynamics" width="132" height="40">
+    <p class="eyebrow">Apollyon Wiki</p>
+    <h1 id="title">Sign in</h1>
+    <p class="lede">Employees use their Lighthouse email and password. External readers use the credentials they were issued.</p>
+
+    <form id="form" novalidate>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="username" inputmode="email" required autofocus>
+
+      <label for="password">Password</label>
+      <div class="pw">
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+        <button type="button" id="toggle" class="ghost" aria-label="Show password" aria-pressed="false">Show</button>
+      </div>
+
+      <p id="error" class="error" role="alert" hidden></p>
+      <button id="submit" type="submit">Sign in</button>
+    </form>
+
+    <p class="help">Forgot your password? Employees can reset it in Lighthouse; external readers should contact the Apollyon contact who invited them.</p>
+  </section>
+  <p class="foot">Apollyon Dynamics &middot; Restricted. Authorised readers only.</p>
+</main>
+<script type="module" src="js/login.js"></script>
+</body>
+</html>

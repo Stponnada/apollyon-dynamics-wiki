@@ -109,7 +109,8 @@ SPECIAL = {
     "special/random.html": ("Random article", "Random article", "random"),
 }
 
-SKIP_DIRS = ("scripts", "assets", "css", "js", "docs", "audit", "drafts", ".git")
+SKIP_DIRS = ("scripts", "assets", "css", "js", "docs", "audit", "drafts", ".git", "node_modules", "api", "lib", ".vercel")
+SKIP_FILES = ("login.html",)  # standalone sign-in page, not a wiki article
 
 
 # ── helpers ──────────────────────────────────────────────────────────────
@@ -515,6 +516,7 @@ def header_html(path):
 <li id="pt-contact" class="mw-list-item"><a href="{pf}{CONTACT}"><span>Contact</span></a></li>
 <li id="pt-team" class="mw-list-item"><a href="{pf}about/team.html"><span>Team</span></a></li>
 <li id="pt-website" class="mw-list-item"><a href="{WEBSITE}" class="external"><span>apollyondynamics.com</span></a></li>
+<li id="pt-logout" class="mw-list-item"><a href="{pf}api/session?action=logout"><span>Log out</span></a></li>
 </ul></div></div>
 </div>
 </nav>
@@ -1010,7 +1012,7 @@ def article_pages():
     for root, dirs, files in os.walk(WIKI):
         dirs[:] = sorted(d for d in dirs if d not in SKIP_DIRS and d != "special")
         for f in sorted(files):
-            if f.endswith(".html"):
+            if f.endswith(".html") and f not in SKIP_FILES:
                 full = os.path.join(root, f)
                 yield os.path.relpath(full, WIKI).replace("\\", "/"), full
 

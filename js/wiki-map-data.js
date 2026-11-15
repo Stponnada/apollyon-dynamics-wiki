@@ -136,7 +136,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 4987,
-     "bytes": 213961,
+     "bytes": 214067,
      "lastmod": "2026-10-05T06:59:01+05:30",
      "links": [
       "strategy/market.html",
@@ -204,8 +204,8 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1655,
-     "bytes": 59404,
-     "lastmod": "2026-10-05T02:07:11+05:30",
+     "bytes": 59513,
+     "lastmod": "2026-10-05T07:26:32+05:30",
      "links": [
       "index.html",
       "products/hemlock.html",
@@ -306,7 +306,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 2687,
-     "bytes": 86538,
+     "bytes": 86647,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "index.html",
@@ -368,8 +368,8 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1232,
-     "bytes": 53811,
-     "lastmod": "2026-10-04T19:40:36+00:00",
+     "bytes": 53920,
+     "lastmod": "2026-10-05T07:26:32+05:30",
      "links": [
       "index.html",
       "architecture/index.html",
@@ -437,7 +437,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1367,
-     "bytes": 55312,
+     "bytes": 55421,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "index.html",
@@ -508,7 +508,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1849,
-     "bytes": 113776,
+     "bytes": 113885,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "index.html",
@@ -559,7 +559,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 998,
-     "bytes": 79192,
+     "bytes": 79301,
      "lastmod": "2026-10-05T02:07:11+05:30",
      "links": [
       "products/nightshade-adx1.html",
@@ -625,7 +625,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1383,
-     "bytes": 50087,
+     "bytes": 50196,
      "lastmod": "2026-10-05T02:07:11+05:30",
      "links": [
       "products/nightshade-adx1.html",
@@ -678,7 +678,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 848,
-     "bytes": 45617,
+     "bytes": 45726,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "products/usv-strike.html",
@@ -734,7 +734,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1118,
-     "bytes": 55382,
+     "bytes": 55491,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "products/nightshade-adx1.html",
@@ -779,7 +779,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 607,
-     "bytes": 39135,
+     "bytes": 39244,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "products/nightshade-adx1.html",
@@ -832,8 +832,8 @@ window.WIKI_MAP = {
       }
      ],
      "words": 473,
-     "bytes": 39625,
-     "lastmod": "2026-10-04T06:18:52+00:00",
+     "bytes": 39734,
+     "lastmod": "2026-10-05T07:26:32+05:30",
      "links": [
       "products/nightshade-adx1.html",
       "architecture/index.html",
@@ -883,7 +883,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 438,
-     "bytes": 39052,
+     "bytes": 39161,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "products/nightshade-adx1.html",
@@ -957,8 +957,8 @@ window.WIKI_MAP = {
       }
      ],
      "words": 2034,
-     "bytes": 84935,
-     "lastmod": "2026-10-05T02:07:11+05:30",
+     "bytes": 85044,
+     "lastmod": "2026-10-05T07:26:32+05:30",
      "links": [
       "index.html",
       "products/nightshade-adx1.html",
@@ -1013,7 +1013,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1528,
-     "bytes": 57874,
+     "bytes": 57983,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "index.html"
@@ -1090,8 +1090,8 @@ window.WIKI_MAP = {
       }
      ],
      "words": 2723,
-     "bytes": 70060,
-     "lastmod": "2026-10-05T02:07:11+05:30",
+     "bytes": 70169,
+     "lastmod": "2026-10-05T07:26:32+05:30",
      "links": [
       "index.html",
       "products/nightshade-adx1.html",
@@ -1137,7 +1137,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1253,
-     "bytes": 47462,
+     "bytes": 47571,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "index.html",
@@ -1199,7 +1199,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 2041,
-     "bytes": 49361,
+     "bytes": 49470,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "index.html"
@@ -1245,7 +1245,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 873,
-     "bytes": 41632,
+     "bytes": 41741,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "index.html",
@@ -1312,7 +1312,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1823,
-     "bytes": 53823,
+     "bytes": 53932,
      "lastmod": "2026-10-05T02:07:11+05:30",
      "links": [
       "index.html",
@@ -1362,7 +1362,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1130,
-     "bytes": 44576,
+     "bytes": 44685,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "doctrine/missing-middle.html"
@@ -1414,7 +1414,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 1342,
-     "bytes": 52232,
+     "bytes": 52341,
      "lastmod": "2026-10-05T02:07:11+05:30",
      "links": [
       "index.html",
@@ -1451,7 +1451,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 357,
-     "bytes": 39102,
+     "bytes": 39211,
      "lastmod": "2026-10-05T02:07:11+05:30",
      "links": [
       "index.html",
@@ -1538,7 +1538,7 @@ window.WIKI_MAP = {
       }
      ],
      "words": 6369,
-     "bytes": 122197,
+     "bytes": 122306,
      "lastmod": "2026-10-04T06:18:52+00:00",
      "links": [
       "index.html"

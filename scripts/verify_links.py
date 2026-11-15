@@ -5,6 +5,7 @@ from urllib.parse import urlparse
 WIKI_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 html_files = []
 for root, dirs, files in os.walk(WIKI_DIR):
+    dirs[:] = [d for d in dirs if d not in ('node_modules', '.git', '.vercel')]
     for f in files:
         if f.endswith(".html"):
             html_files.append(os.path.join(root, f))
@@ -49,6 +50,9 @@ for hf in html_files:
                 if target_frag not in file_ids[hf]:
                     errors.append(f"[{rel_path}] Broken internal anchor: #{target_frag}")
             continue
+
+        if target_path.endswith('api/session'):
+            continue  # serverless endpoint (api/session.js), not a static file
 
         resolved_file = os.path.normpath(os.path.join(os.path.dirname(hf), target_path))
         if not os.path.exists(resolved_file):
